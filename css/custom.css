@@ -1,0 +1,47 @@
+.input-center{
+  text-align: center;
+}
+
+/**input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button{
+  -webkit-appearance: none;
+  margin: 0;
+}**/
+
+.table-align-center tr, .table-align-center td, .table-align-center th{
+  text-align: center;
+}
+
+a{
+  cursor: pointer;
+}
+.table-borderless > tbody > tr > td,
+.table-borderless > tbody > tr > th,
+.table-borderless > tfoot > tr > td,
+.table-borderless > tfoot > tr > th,
+.table-borderless > thead > tr > td,
+.table-borderless > thead > tr > th {
+    border: none;
+}
+
+th, tr, td{
+  white-space: nowrap;
+}
+
+.disabledbutton {
+    pointer-events: none;
+    opacity: 0.4;
+}
+
+/*.caret {
+  border-color: transparent !important;
+}*/
+
+.nav-custom{
+    background: rgb(240,43,32);
+    padding: 10px;
+}
+
+.nav-custom a{
+    font-size: 18px;
+}
